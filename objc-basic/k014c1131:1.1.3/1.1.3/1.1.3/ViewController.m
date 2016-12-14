@@ -43,6 +43,33 @@
     for (id testKey in [testDictionary keyEnumerator]) {
         NSLog(@"%@番目 %@", testKey, [testDictionary valueForKey:testKey]);
     }
+    int testDay = 1;
+    switch (testDay) {
+        case 1:
+            NSLog(@"今日は月曜日");
+            break;
+        case 2:
+            NSLog(@"今日は火曜日");
+            break;
+        case 3:
+            NSLog(@"今日は水曜日");
+            break;
+        case 4:
+            NSLog(@"今日は木曜日");
+            break;
+        case 5:
+            NSLog(@"今日は金曜日");
+            break;
+        case 6:
+            NSLog(@"今日は土曜日");
+            break;
+        case 7:
+            NSLog(@"今日は日曜日");
+            break;
+        default:
+            NSLog(@"該当なし");
+            break;
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 
