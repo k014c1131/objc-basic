@@ -16,10 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    float testFloat = 123.45;
+    NSString* testString = @"こんにちは";
+    NSInteger testInt = 123;
+    BOOL testBool = false;
     
-    NSString 
-    
-    NSLog("");
+    NSLog(@"文字列：%@ 少数：%f 整数：%ld 真偽：%d",testString,testFloat,(long)testInt,testBool);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
