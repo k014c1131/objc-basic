@@ -15,26 +15,4 @@
         [self.delegate ObjC];
     }
 }
-
--(void)login {
-    
-    
-    
-    // ログインする前に、delegateメソッドを呼び出します
-    /*BOOL startLogin = [delegate loginService:self willStartLogin];
-    if (startLogin == NO) {
-        // delegateの処理結果でNGとなった場合には、処理しない
-        return;
-    }
-    
-    // ログイン処理を行います。以下のメソッドは仮です。
-    [self doLoginWithCallback:^(LoginInfo *info, Error *error) {
-        // @optional指定しているdelegateのメソッドは実装されていない可能性があるので、
-        // 実装確認をしてから呼び出します。
-        if ([delegate respondsToSelector:@selector(loginService:didEndLogin:)]) {
-            [delegate didEndLogin:self didEndLogin:error];
-        }
-    }];*/
-}
-
 @end
