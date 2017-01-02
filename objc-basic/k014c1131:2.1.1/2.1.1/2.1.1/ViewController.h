@@ -2,8 +2,8 @@
 //  ViewController.h
 //  2.1.1
 //
-//  Created by ITユーザー on 2016/12/21.
-//  Copyright © 2016年 ITユーザー. All rights reserved.
+//  Created by B012 on 2017/01/02.
+//  Copyright © 2017年 B012. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

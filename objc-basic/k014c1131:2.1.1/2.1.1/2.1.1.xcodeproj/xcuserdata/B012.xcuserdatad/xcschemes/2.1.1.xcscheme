@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71C3EDFC1E09873700EFCB8F"
+               BlueprintIdentifier = "20AA1BD71E1A217E00A2FE9B"
                BuildableName = "2.1.1.app"
                BlueprintName = "2.1.1"
                ReferencedContainer = "container:2.1.1.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71C3EE151E09873700EFCB8F"
+               BlueprintIdentifier = "20AA1BF01E1A217E00A2FE9B"
                BuildableName = "2.1.1Tests.xctest"
                BlueprintName = "2.1.1Tests"
                ReferencedContainer = "container:2.1.1.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71C3EE201E09873700EFCB8F"
+               BlueprintIdentifier = "20AA1BFB1E1A217E00A2FE9B"
                BuildableName = "2.1.1UITests.xctest"
                BlueprintName = "2.1.1UITests"
                ReferencedContainer = "container:2.1.1.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71C3EDFC1E09873700EFCB8F"
+            BlueprintIdentifier = "20AA1BD71E1A217E00A2FE9B"
             BuildableName = "2.1.1.app"
             BlueprintName = "2.1.1"
             ReferencedContainer = "container:2.1.1.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71C3EDFC1E09873700EFCB8F"
+            BlueprintIdentifier = "20AA1BD71E1A217E00A2FE9B"
             BuildableName = "2.1.1.app"
             BlueprintName = "2.1.1"
             ReferencedContainer = "container:2.1.1.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71C3EDFC1E09873700EFCB8F"
+            BlueprintIdentifier = "20AA1BD71E1A217E00A2FE9B"
             BuildableName = "2.1.1.app"
             BlueprintName = "2.1.1"
             ReferencedContainer = "container:2.1.1.xcodeproj">
