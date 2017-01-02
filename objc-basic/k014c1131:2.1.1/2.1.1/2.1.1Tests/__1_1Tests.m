@@ -2,8 +2,8 @@
 //  __1_1Tests.m
 //  2.1.1Tests
 //
-//  Created by ITユーザー on 2016/12/21.
-//  Copyright © 2016年 ITユーザー. All rights reserved.
+//  Created by B012 on 2017/01/02.
+//  Copyright © 2017年 B012. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
