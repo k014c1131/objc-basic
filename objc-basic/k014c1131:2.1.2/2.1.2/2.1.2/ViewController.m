@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIImage *image = [UIImage imageNamed:@"Image"];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    
+    imageView.clipsToBounds = YES;
+    imageView.layer.cornerRadius = 30.0;
+    imageView.center =  CGPointMake(240, 240);
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {
