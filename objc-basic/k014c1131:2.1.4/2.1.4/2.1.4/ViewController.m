@@ -14,6 +14,33 @@
 
 @implementation ViewController
 
+- (IBAction)PushButton:(id)sender {
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"課題"
+                                                                             message:@"頑張る"
+                                                                      preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:@"OK"
+                                                        style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction *action) {
+                                                          [self yesButtonPushed];
+                                                      }]];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:@"Cancel"
+                                                        style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction *action) {
+                                                          // cancelボタンが押された時の処理
+                                                          [self noButtonPushed];
+                                                      }]];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
+}
+- (void)yesButtonPushed {
+    NSLog(@"はい");
+}
+- (void)noButtonPushed {
+    NSLog(@"はい");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
