@@ -14,6 +14,36 @@
 
 @implementation ViewController
 
+- (IBAction)PushButton:(id)sender {
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"課題"
+                                                                             message:@"頑張る"
+                                                                      preferredStyle:UIAlertControllerStyleActionSheet];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:@"Facebook"
+                                                        style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction *action) {
+                                                          [self ButtonPushed:@"Facebook"];
+                                                      }]];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:@"Twitter"
+                                                        style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction *action) {
+                                                          [self ButtonPushed:@"Twitter"];
+                                                      }]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"LINE"
+                                                        style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction *action) {
+                                                          [self ButtonPushed:@"LINE"];
+                                                      }]];
+    
+    
+    [self presentViewController:alertController animated:YES completion:nil];
+}
+- (void)ButtonPushed:(NSString*) text {
+    NSLog(@"%@",text);
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
