@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *barButtonGoBack;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *barButtonGoForward;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *barButtonReload;
+@property (weak, nonatomic) IBOutlet UIWebView *Myview;
 
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *backButton;
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *forwardButton;
+- (IBAction)GoBack:(id)sender;
+- (IBAction)GoForward:(id)sender;
+- (IBAction)Reload:(id)sender;
 
 
 @end
